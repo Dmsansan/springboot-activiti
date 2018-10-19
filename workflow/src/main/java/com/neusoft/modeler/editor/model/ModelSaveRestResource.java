@@ -10,12 +10,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.neusoft.model;
+package com.neusoft.modeler.editor.model;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.activiti.editor.constants.ModelDataJsonConstants;
 import org.activiti.engine.ActivitiException;
 import org.activiti.engine.RepositoryService;
@@ -28,20 +26,17 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.util.MultiValueMap;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseStatus;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
 
 /**
  * @author Tijs Rademakers
  */
 @RestController
+@RequestMapping(value = "/service")
 public class ModelSaveRestResource implements ModelDataJsonConstants {
   
   protected static final Logger LOGGER = LoggerFactory.getLogger(ModelSaveRestResource.class);
@@ -54,23 +49,24 @@ public class ModelSaveRestResource implements ModelDataJsonConstants {
   
   @RequestMapping(value="/model/{modelId}/save", method = RequestMethod.PUT)
   @ResponseStatus(value = HttpStatus.OK)
-  public void saveModel(@PathVariable String modelId, @RequestBody MultiValueMap<String, String> values) {
+  public void saveModel(@PathVariable String modelId, String name,String description,
+                        String json_xml,String svg_xml) {
     try {
       
       Model model = repositoryService.getModel(modelId);
       
       ObjectNode modelJson = (ObjectNode) objectMapper.readTree(model.getMetaInfo());
       
-      modelJson.put(MODEL_NAME, values.getFirst("name"));
-      modelJson.put(MODEL_DESCRIPTION, values.getFirst("description"));
+      modelJson.put(MODEL_NAME, name);
+      modelJson.put(MODEL_DESCRIPTION, description);
       model.setMetaInfo(modelJson.toString());
-      model.setName(values.getFirst("name"));
+      model.setName(name);
       
       repositoryService.saveModel(model);
       
-      repositoryService.addModelEditorSource(model.getId(), values.getFirst("json_xml").getBytes("utf-8"));
+      repositoryService.addModelEditorSource(model.getId(), json_xml.getBytes("utf-8"));
       
-      InputStream svgStream = new ByteArrayInputStream(values.getFirst("svg_xml").getBytes("utf-8"));
+      InputStream svgStream = new ByteArrayInputStream(svg_xml.getBytes("utf-8"));
       TranscoderInput input = new TranscoderInput(svgStream);
       
       PNGTranscoder transcoder = new PNGTranscoder();
