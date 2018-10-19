@@ -10,9 +10,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.neusoft.canstants;
-
-import java.io.InputStream;
+package com.neusoft.model;
 
 import org.activiti.engine.ActivitiException;
 import org.apache.commons.io.IOUtils;
@@ -20,6 +18,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.io.InputStream;
 
 /**
  * @author Tijs Rademakers
