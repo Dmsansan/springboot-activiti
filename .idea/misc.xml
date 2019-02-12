@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/activitiDemo/pom.xml" />
         <option value="$PROJECT_DIR$/workflow/pom.xml" />
+        <option value="$PROJECT_DIR$/flow/pom.xml" />
+        <option value="$PROJECT_DIR$/flowable-modeler/pom.xml" />
       </list>
     </option>
   </component>

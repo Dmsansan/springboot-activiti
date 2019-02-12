@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="activitiDemo" />
+        <module name="flow" />
+        <module name="hsweb-flowable-modeler" />
         <module name="workflow" />
         <module name="workflow (1) (act-workflow)" />
       </profile>
