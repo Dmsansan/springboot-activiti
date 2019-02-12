@@ -2,303 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44ce7397-8098-4b8d-a39b-564e878b85eb" name="Default Changelist" comment="添加flowable-modeler代码">
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/java/org/hswebframework/web/workflow/flowable/modeler/FlowableModelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/breadcrumbs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/checker-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/blue/message_catch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/business_rule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/error_catch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/error_throw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/manual.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/message_catch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/message_throw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/receive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/script.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/send.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/signal_catch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/signal_throw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/timer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/images/deployer/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/ActivitiRest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/ActivityImpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/Color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/LineBreakMeasurer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/Polyline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/ProcessDiagramCanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/ProcessDiagramGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/jquery/jquery.asyncqueue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/jquery/jquery.progressbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/jstools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/raphael.2.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/raphael.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/raphael_uncompressed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/js/textlayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/diagram-viewer/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/app-cfg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-assignment-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-condition-expression-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-custom-controllers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-default-controllers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-event-listeners-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-execution-listeners-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-fields-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-form-properties-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-in-parameters-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-message-definitions-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-message-scope-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-multiinstance-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-out-parameters-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-sequenceflow-order-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-signal-definitions-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-signal-scope-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties-task-listeners-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/assignment-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/assignment-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/assignment-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/boolean-property-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/condition-expression-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/condition-expression-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/condition-expression-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/default-value-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/event-listeners-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/event-listeners-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/event-listeners-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/execution-listeners-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/execution-listeners-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/execution-listeners-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/feedback-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/fields-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/fields-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/fields-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/form-properties-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/form-properties-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/form-properties-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/in-parameters-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/in-parameters-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/in-parameters-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/message-definitions-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/message-definitions-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/message-definitions-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/message-property-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/multiinstance-property-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/out-parameters-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/out-parameters-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/out-parameters-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/sequenceflow-order-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/sequenceflow-order-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/sequenceflow-order-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/signal-definitions-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/signal-definitions-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/signal-definitions-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/signal-property-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/string-property-write-mode-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/subprocess-reference-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/subprocess-reference-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/subprocess-reference-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/task-listeners-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/task-listeners-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/task-listeners-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/text-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/properties/text-property-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/toolbar-custom-actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/toolbar-default-actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/configuration/url-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/css/style-common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/css/style-editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor/css/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor/i18n/translation_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor/i18n/translation_en_us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor/i18n/translation_signavio_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor/i18n/translation_signavio_en_us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor/oryx.debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/editor/oryx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/eventbus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/fonts/activiti-admin-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/fonts/activiti-admin-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/fonts/activiti-admin-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/fonts/activiti-admin-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/header-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/i18n/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/i18n/zh-CN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/bpmn-error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/bpmn-warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/datadefinition.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/logo-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/nw-handle-dark.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/se-handle-dark.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/shapemenu_highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/images/wrench.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-dragdrop.min-1.0.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-resource_1.2.13/angular-resource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-route_1.2.13/angular-route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-route_1.2.13/angular-route.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-translate-loader-static-files/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-translate-storage-cookie/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-translate_2.4.2/angular-translate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular_1.2.13/angular-animate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/angular_1.2.13/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/CHANGES" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/jquery.autogrow-textarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/jquery_1.11.0/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/jquery_1.11.0/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/jquery_1.11.0/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/json3_3.2.6/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/json3_3.2.6/lib/json3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/json3_3.2.6/lib/json3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/momentjs_2.5.1/momentjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/mousetrap-1.4.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/ng-grid-2.0.7-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/ng-grid-2.0.7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/path_parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/prototype-1.5.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/libs/ui-utils.min-0.0.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/partials/root-stencil-item-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/partials/stencil-item-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/popups/icon-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/popups/save-model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/popups/select-shape.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/popups/unsaved-changes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/select-shape-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencil-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/editor-app/toolbar-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/modeler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/stencilset.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/test/java/org/hswebframework/web/workflow/flowable/FlowableModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/test/resources/processes/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowable-modeler/src/test/resources/processes/SimpleProcess.bpmn20.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/src/main/java/com/neusoft/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/src/main/java/com/neusoft/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/com/neusoft/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/com/neusoft/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/diagram-viewer/js/Polyline.js" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/diagram-viewer/js/Polyline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/activiti-admin-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/activiti-admin-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/activiti-admin-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/activiti-admin-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/activiti-admin-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/activiti-admin-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/target/classes/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/target/classes/static/favicon.ico" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/activitiDemo/target/" />
@@ -310,6 +28,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
@@ -329,40 +50,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="bpmn" value="7" />
+          <entry key="bpmn" value="8" />
           <entry key="class" value="2" />
           <entry key="html" value="4" />
           <entry key="ico" value="1" />
-          <entry key="java" value="24" />
+          <entry key="java" value="28" />
           <entry key="js" value="4" />
           <entry key="json" value="3" />
           <entry key="md" value="3" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="9" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="10" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="BPMN_EDITOR" value="7" />
+          <entry key="BPMN_EDITOR" value="8" />
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="28" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="4" />
           <entry key="Markdown" value="3" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="9" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="10" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="bpmn" value="2" />
-          <entry key="java" value="462" />
+          <entry key="java" value="463" />
           <entry key="js" value="8" />
-          <entry key="properties" value="217" />
+          <entry key="properties" value="350" />
           <entry key="txt" value="24" />
           <entry key="xml" value="155" />
         </counts>
@@ -370,10 +91,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="BPMN_EDITOR" value="2" />
-          <entry key="JAVA" value="462" />
+          <entry key="JAVA" value="463" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Properties" value="217" />
+          <entry key="Properties" value="350" />
           <entry key="XML" value="155" />
         </counts>
       </usages-collector>
@@ -394,13 +115,84 @@
           <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/modeler.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            <state relative-caret-position="285">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/modeler/editor/main/StencilsetRestResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/modeler/editor/model/ModelEditorJsonRestResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/modeler/editor/model/ModelSaveRestResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflow/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1229">
+              <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/myProcess.bpmn">
+          <provider selected="true" editor-type-id="bpmn-editor" />
         </entry>
       </file>
     </leaf>
@@ -426,7 +218,6 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/workflow/src/main/resources/static/editor-app/app-cfg.js" />
-        <option value="$PROJECT_DIR$/workflow/src/main/java/com/neusoft/Application.java" />
         <option value="$PROJECT_DIR$/workflow/src/main/java/com/neusoft/controller/ActivitiModelControlleer.java" />
         <option value="$PROJECT_DIR$/workflow/src/main/java/com/neusoft/model/StencilsetRestResource.java" />
         <option value="$PROJECT_DIR$/workflow/src/main/java/com/neusoft/model/ModelSaveRestResource.java" />
@@ -440,7 +231,6 @@
         <option value="$PROJECT_DIR$/workflow/src/main/java/com/neusoft/modeler/editor/model/ModelSaveRestResource.java" />
         <option value="$PROJECT_DIR$/workflow/src/main/resources/stencilset.json" />
         <option value="$PROJECT_DIR$/workflow/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/workflow/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/workflow/pom.xml" />
         <option value="$PROJECT_DIR$/workflow/src/main/java/com/neusoft/config/ActivitiConfig.java" />
         <option value="$PROJECT_DIR$/workflow/src/main/resources/myProcess.bpmn.xml" />
@@ -448,8 +238,13 @@
         <option value="$PROJECT_DIR$/flow/pom.xml" />
         <option value="$PROJECT_DIR$/flow/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/flowable-modeler/src/test/resources/processes/SimpleProcess.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/workflow/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/workflow/src/main/java/com/neusoft/Application.java" />
       </list>
     </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -470,7 +265,7 @@
       <path value="$PROJECT_DIR$/workflow/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -513,6 +308,41 @@
             <path>
               <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
               <item name="workflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="activitiDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="activitiDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="activitiDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="activitiDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="activitiDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neusoft" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
@@ -607,25 +437,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="editor-app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -644,7 +455,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549960176230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549962059989" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/flowable-modeler" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -678,7 +489,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FlowableModelTest">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="workflow (1) (act-workflow)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.neusoft.Application" />
@@ -727,7 +538,7 @@
       <workItem from="1540445950603" duration="771000" />
       <workItem from="1540537286197" duration="710000" />
       <workItem from="1540544746598" duration="3230000" />
-      <workItem from="1549959916458" duration="736000" />
+      <workItem from="1549959916458" duration="2130000" />
     </task>
     <task id="LOCAL-00001" summary="添加流程配置代码">
       <created>1549959987299</created>
@@ -740,13 +551,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19160000" />
+    <option name="totallyTimeSpent" value="20554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.26096824" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -756,10 +567,11 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info x="518" y="59" width="330" height="610" id="BPMN Editor" order="9" type="FLOATING" weight="0.24962178" />
+      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.61083746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -862,13 +674,6 @@
     <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/static/editor-app/i18n/en.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/stencilset.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22593">
@@ -880,13 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workflow/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -904,15 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/myProcess.bpmn">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="bpmn-editor" />
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/static/editor-app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -927,34 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/modeler/editor/model/ModelSaveRestResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/modeler/editor/main/StencilsetRestResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/modeler/editor/model/ModelEditorJsonRestResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flow/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -966,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -1037,8 +791,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flowable-modeler/src/main/resources/static/workflow/modeler.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        <state relative-caret-position="285">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/myProcess.bpmn">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="bpmn-editor" />
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflow/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1229">
+          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflow/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/modeler/editor/main/StencilsetRestResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/modeler/editor/model/ModelEditorJsonRestResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/modeler/editor/model/ModelSaveRestResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflow/src/main/java/com/neusoft/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
