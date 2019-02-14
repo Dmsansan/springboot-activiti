@@ -820,6 +820,7 @@
     <inspection_tool class="DeprecatedClassUsageInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="DeprecatedGradleDependency" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="DeprecatedIsStillUsed" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="DeprecatedLombok" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="DeprecatedMavenDependency" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="Deprecation" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="DesignForExtension" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1531,7 +1532,7 @@
     <inspection_tool class="Java9UndeclaredServiceUsage" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="JavaCollectionsStaticMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="JavaCollectionsStaticMethodOnImmutableList" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="JavaDoc" enabled="true" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="JavaDoc" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="TOP_LEVEL_CLASS_OPTIONS">
         <value>
           <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
@@ -1678,6 +1679,7 @@
       <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
     </inspection_tool>
     <inspection_tool class="LoggingConditionDisagreesWithLogStatement" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Lombok" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LongLine" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LongLiteralsEndingWithLowercaseL" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="LoopConditionNotUpdatedInsideLoop" enabled="true" level="WARNING" enabled_by_default="true">
@@ -2907,5 +2909,17 @@
       </option>
     </inspection_tool>
     <inspection_tool class="gwtRawAsyncCallback" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="unused" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="LOCAL_VARIABLE" value="true" />
+      <option name="FIELD" value="true" />
+      <option name="METHOD" value="true" />
+      <option name="CLASS" value="true" />
+      <option name="PARAMETER" value="true" />
+      <option name="REPORT_PARAMETER_FOR_PUBLIC_METHODS" value="true" />
+      <option name="ADD_MAINS_TO_ENTRIES" value="true" />
+      <option name="ADD_APPLET_TO_ENTRIES" value="true" />
+      <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
+      <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
+    </inspection_tool>
   </profile>
 </component>

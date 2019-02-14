@@ -8,7 +8,10 @@ import org.activiti.bpmn.model.BpmnModel;
 import org.activiti.editor.constants.ModelDataJsonConstants;
 import org.activiti.editor.language.json.converter.BpmnJsonConverter;
 import org.activiti.engine.ActivitiException;
+import org.activiti.engine.FormService;
 import org.activiti.engine.RepositoryService;
+import org.activiti.engine.form.FormProperty;
+import org.activiti.engine.form.StartFormData;
 import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.ProcessDefinition;
 import org.apache.commons.io.IOUtils;
@@ -16,6 +19,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.ui.Model;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.ByteArrayInputStream;
@@ -32,6 +36,10 @@ public class ActModelService {
 
 	@Autowired
 	private RepositoryService repositoryService;
+
+	@Autowired
+	private FormService formService;
+
 
 	/**
 	 * 流程模型列表
@@ -166,5 +174,21 @@ public class ActModelService {
 	@Transactional(readOnly = false)
 	public void delete(String id) {
 		repositoryService.deleteModel(id);
+	}
+
+	/**
+	 * 启动流程
+	 * @param processDefId
+	 * @param model
+	 * @return
+	 */
+	@Transactional(readOnly = false)
+	public Model startProcess(String processDefId, Model model){
+		StartFormData startFormData = formService.getStartFormData(processDefId);
+		List<FormProperty> formProperties= startFormData.getFormProperties();
+		ProcessDefinition pd = startFormData.getProcessDefinition();
+		model.addAttribute("list",formProperties);
+		model.addAttribute("pd",pd);
+		return model;
 	}
 }
