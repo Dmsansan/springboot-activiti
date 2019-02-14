@@ -2,331 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44ce7397-8098-4b8d-a39b-564e878b85eb" name="Default Changelist" comment="添加modeler编辑器">
-      <change afterPath="$PROJECT_DIR$/activitiModeler/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/common/constants/SystemConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/common/gen/plugin/GenMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/common/gen/plugin/MapperPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/common/gen/plugin/SerializablePlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/common/util/IdGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/common/web/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/activiti/ext/ActivitiExtendProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/activiti/ext/GroupServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/activiti/ext/UserServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/config/ActivitiConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/config/CoreConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/controller/ActModelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/entity/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/mapper/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/service/ActModelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/service/BaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/module/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/module/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/module/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/module/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/org/mybatis/generator/api/IntrospectedTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/org/mybatis/generator/api/dom/OutputUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/SimpleXMLMapperGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/XMLMapperGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/gen/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/gen/mysql-connector-java-5.1.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/mappers/module/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/breadcrumbs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/checker-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/blue/message_catch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/business_rule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/error_catch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/error_throw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/manual.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/message_catch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/message_throw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/receive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/script.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/send.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/signal_catch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/signal_throw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/timer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/images/deployer/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/ActivitiRest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/ActivityImpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/Color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/LineBreakMeasurer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/Polyline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/ProcessDiagramCanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/ProcessDiagramGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/jquery/jquery.asyncqueue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/jquery/jquery.progressbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/jstools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/raphael.2.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/raphael.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/raphael_uncompressed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/js/textlayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/diagram-viewer/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/app-cfg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-assignment-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-condition-expression-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-custom-controllers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-default-controllers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-event-listeners-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-execution-listeners-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-fields-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-form-properties-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-in-parameters-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-message-definitions-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-message-scope-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-multiinstance-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-out-parameters-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-sequenceflow-order-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-signal-definitions-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-signal-scope-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties-task-listeners-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/assignment-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/assignment-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/assignment-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/boolean-property-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/condition-expression-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/condition-expression-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/condition-expression-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/default-value-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/event-listeners-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/event-listeners-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/event-listeners-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/execution-listeners-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/execution-listeners-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/execution-listeners-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/feedback-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/fields-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/fields-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/fields-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/form-properties-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/form-properties-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/form-properties-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/in-parameters-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/in-parameters-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/in-parameters-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/message-definitions-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/message-definitions-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/message-definitions-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/message-property-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/multiinstance-property-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/out-parameters-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/out-parameters-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/out-parameters-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/sequenceflow-order-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/sequenceflow-order-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/sequenceflow-order-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/signal-definitions-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/signal-definitions-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/signal-definitions-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/signal-property-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/string-property-write-mode-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/subprocess-reference-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/subprocess-reference-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/subprocess-reference-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/task-listeners-display-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/task-listeners-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/task-listeners-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/text-popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/properties/text-property-write-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/toolbar-custom-actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/toolbar-default-actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/configuration/url-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/css/style-common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/css/style-editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor/css/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor/i18n/translation_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor/i18n/translation_en_us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor/i18n/translation_signavio_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor/i18n/translation_signavio_en_us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor/oryx.debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/editor/oryx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/eventbus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/fonts/activiti-admin-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/fonts/activiti-admin-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/fonts/activiti-admin-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/fonts/activiti-admin-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/header-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/i18n/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/i18n/zh-CN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/bpmn-error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/bpmn-warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/datadefinition.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/logo-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/nw-handle-dark.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/se-handle-dark.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/shapemenu_highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/images/wrench.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-dragdrop.min-1.0.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-resource_1.2.13/angular-resource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-route_1.2.13/angular-route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-route_1.2.13/angular-route.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-translate-loader-static-files/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-translate-storage-cookie/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-translate_2.4.2/angular-translate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular_1.2.13/angular-animate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/angular_1.2.13/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/CHANGES" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/jquery.autogrow-textarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/jquery_1.11.0/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/jquery_1.11.0/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/jquery_1.11.0/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/json3_3.2.6/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/json3_3.2.6/lib/json3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/json3_3.2.6/lib/json3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/momentjs_2.5.1/momentjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/mousetrap-1.4.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/ng-grid-2.0.7-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/ng-grid-2.0.7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/path_parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/prototype-1.5.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/libs/ui-utils.min-0.0.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/partials/root-stencil-item-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/partials/stencil-item-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/popups/icon-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/popups/save-model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/popups/select-shape.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/popups/unsaved-changes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/select-shape-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencil-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/toolbar-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/modeler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/main/resources/stencilset.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/test/java/com/ascendant/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/test/java/com/ascendant/activiti/ActivitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/test/java/com/ascendant/module/mapper/test/UserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activitiModeler/src/test/resources/bpmn/Leave.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/activitiDemo/target/" />
@@ -368,7 +44,7 @@
           <entry key="html" value="6" />
           <entry key="ico" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="44" />
+          <entry key="java" value="45" />
           <entry key="js" value="6" />
           <entry key="json" value="5" />
           <entry key="md" value="4" />
@@ -384,7 +60,7 @@
           <entry key="HTML" value="6" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="44" />
+          <entry key="JAVA" value="45" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="4" />
@@ -396,7 +72,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="bpmn" value="2" />
-          <entry key="java" value="510" />
+          <entry key="java" value="533" />
           <entry key="js" value="8" />
           <entry key="properties" value="356" />
           <entry key="txt" value="131" />
@@ -407,7 +83,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="BPMN_EDITOR" value="2" />
-          <entry key="JAVA" value="510" />
+          <entry key="JAVA" value="533" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="131" />
           <entry key="Properties" value="356" />
@@ -458,10 +134,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activitiModeler/src/main/resources/gen/generatorConfig.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/controller/ActModelController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-684" />
+            <state relative-caret-position="-167">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -474,11 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/app-cfg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="532">
+              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -568,6 +249,7 @@
         <option value="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/activiti/ext/ActivitiExtendProperties.java" />
         <option value="$PROJECT_DIR$/activitiModeler/pom.xml" />
         <option value="$PROJECT_DIR$/activitiModeler/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/controller/ActModelController.java" />
       </list>
     </option>
   </component>
@@ -1093,6 +775,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ascendant" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="activitiModeler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1112,25 +805,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="activitiModeler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="activitiModeler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="editor-app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1148,7 +822,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550114123570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550124735153" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/activitiModeler" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1249,7 +923,7 @@
       <workItem from="1550020343035" duration="343000" />
       <workItem from="1550020949985" duration="3251000" />
       <workItem from="1550106496152" duration="4358000" />
-      <workItem from="1550112073416" duration="2030000" />
+      <workItem from="1550112073416" duration="4781000" />
     </task>
     <task id="LOCAL-00001" summary="添加流程配置代码">
       <created>1549959987299</created>
@@ -1290,7 +964,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32777000" />
+    <option name="totallyTimeSpent" value="35528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1591,16 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/controller/ActModelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/entity/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1699,10 +1363,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activitiModeler/src/main/resources/static/activiti/editor-app/app-cfg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="532">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/controller/ActModelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
