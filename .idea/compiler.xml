@@ -10,6 +10,7 @@
         <module name="flow" />
         <module name="forward" />
         <module name="hsweb-flowable-modeler" />
+        <module name="kft-activiti-demo" />
         <module name="workflow" />
         <module name="workflow (1) (act-workflow)" />
       </profile>

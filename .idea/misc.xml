@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/kftActiviti" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -10,6 +13,7 @@
         <option value="$PROJECT_DIR$/flow/pom.xml" />
         <option value="$PROJECT_DIR$/flowable-modeler/pom.xml" />
         <option value="$PROJECT_DIR$/activitiModeler/pom.xml" />
+        <option value="$PROJECT_DIR$/kftActiviti/pom.xml" />
       </list>
     </option>
   </component>
