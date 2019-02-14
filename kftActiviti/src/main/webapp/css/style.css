@@ -1,0 +1,141 @@
+.template {display: none;}
+td.label {
+    text-align: right;
+    font-weight: bold;
+}
+
+textarea {
+    height: 100px;
+}
+
+.ui-button .ui-button-text {
+    line-height: 1;
+}
+
+.ui-buttonset .ui-button-text-only .ui-button-text {
+    padding: .4em .5em;
+}
+
+.ui-button-text-icon-primary .ui-button-icon-primary, .ui-button-text-icons .ui-button-icon-primary, .ui-button-icons-only .ui-button-icon-primary {
+    left: 0.3em;
+}
+
+.ui-button-text-icon-primary .ui-button-text {
+    padding: 0.4em 0.8em 0.4em 1.7em;
+}
+
+.ui-corner-all-12, .ui-corner-top-12, .ui-corner-left-12, .ui-corner-tl-12 {
+    -moz-border-radius-topleft: 12px;
+    -webkit-border-top-left-radius: 12px;
+    -khtml-border-top-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.ui-corner-all-12, .ui-corner-top-12, .ui-corner-right-12, .ui-corner-tr-12 {
+    -moz-border-radius-topright: 12px;
+    -webkit-border-top-right-radius: 12px;
+    -khtml-border-top-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.ui-corner-all-12, .ui-corner-bottom-12, .ui-corner-left-12, .ui-corner-bl-12 {
+    -moz-border-radius-bottomleft: 12px;
+    -webkit-border-bottom-left-radius: 12px;
+    -khtml-border-bottom-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.ui-corner-all-12, .ui-corner-bottom-12, .ui-corner-right-12, .ui-corner-br-12 {
+    -moz-border-radius-bottomright: 12px;
+    -webkit-border-bottom-right-radius: 12px;
+    -khtml-border-bottom-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* 自动完成的loading图片 */
+.ui-loading { background: url('../images/ajax/loading.gif') right center no-repeat; padding-left: 18px;}
+
+.error, .alert, .notice, .success, .info {
+	padding: auto !important;
+}
+
+/* 解决和jquery ui tooltip冲突问题 */
+.qtip {padding: 0px !important;}
+
+.pagination {
+  margin: 20px 0;
+}
+
+.pagination ul {
+  display: inline-block;
+  *display: inline;
+  margin-bottom: 0;
+  margin-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.pagination ul > li {
+  display: inline;
+}
+
+.pagination ul > li > a,
+.pagination ul > li > span {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left-width: 0;
+}
+
+.pagination ul > li > a:hover,
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  background-color: #f5f5f5;
+}
+
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  color: #999999;
+  cursor: default;
+}
+
+.pagination ul > .disabled > span,
+.pagination ul > .disabled > a,
+.pagination ul > .disabled > a:hover {
+  color: #999999;
+  cursor: default;
+  background-color: transparent;
+}
+
+.pagination ul > li:first-child > a,
+.pagination ul > li:first-child > span {
+  border-left-width: 1px;
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.pagination ul > li:last-child > a,
+.pagination ul > li:last-child > span {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+
+.pagination-centered {
+  text-align: center;
+}

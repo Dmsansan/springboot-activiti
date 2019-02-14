@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44ce7397-8098-4b8d-a39b-564e878b85eb" name="Default Changelist" comment="添加modeler编辑器">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="44ce7397-8098-4b8d-a39b-564e878b85eb" name="Default Changelist" comment="添加modeler编辑器" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/activitiDemo/target/" />
     <ignored path="$PROJECT_DIR$/workflow/target/" />
@@ -137,8 +135,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/controller/ActModelController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="42">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -292,7 +290,7 @@
       <path value="$PROJECT_DIR$/workflow/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -822,7 +820,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550124735153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550124788429" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/activitiModeler" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -923,7 +921,7 @@
       <workItem from="1550020343035" duration="343000" />
       <workItem from="1550020949985" duration="3251000" />
       <workItem from="1550106496152" duration="4358000" />
-      <workItem from="1550112073416" duration="4781000" />
+      <workItem from="1550112073416" duration="5338000" />
     </task>
     <task id="LOCAL-00001" summary="添加流程配置代码">
       <created>1549959987299</created>
@@ -964,7 +962,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35528000" />
+    <option name="totallyTimeSpent" value="36085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1373,8 +1371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activitiModeler/src/main/java/com/ascendant/core/controller/ActModelController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="42">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
