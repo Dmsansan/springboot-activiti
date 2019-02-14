@@ -17,12 +17,15 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 流程模型相关Controller
@@ -96,15 +99,16 @@ public class ActModelController implements ModelDataJsonConstants {
 	/**
 	 * 根据Model部署流程
 	 */
-	//@ResponseBody
-	//@RequiresPermissions("act:model:deploy")
-	//@RequestMapping(value = "deploy")
-	//public AjaxJson deploy(String id, RedirectAttributes redirectAttributes) {
-	//	AjaxJson j = new AjaxJson();
-	//	String message = actModelService.deploy(id);
-	//	j.setMsg(message);
-	//	return j;
-	//}
+	@ResponseBody
+//	@RequiresPermissions("act:model:deploy")
+	@RequestMapping(value = "/deploy/{id}")
+	public Map deploy(@PathVariable String id, RedirectAttributes redirectAttributes) {
+		LOGGER.debug("部署的流程ID：{}", id);
+		Map<String,Object> map = new HashMap<>();
+		String message = actModelService.deploy(id);
+		map.put("msg",message);
+		return map;
+	}
 	
 	/**
 	 * 导出model的xml文件
