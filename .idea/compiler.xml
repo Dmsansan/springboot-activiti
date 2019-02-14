@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="activitiDemo" />
         <module name="flow" />
+        <module name="forward" />
         <module name="hsweb-flowable-modeler" />
         <module name="workflow" />
         <module name="workflow (1) (act-workflow)" />
