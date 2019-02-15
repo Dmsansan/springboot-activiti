@@ -7,25 +7,25 @@ import org.activiti.bpmn.converter.BpmnXMLConverter;
 import org.activiti.bpmn.model.BpmnModel;
 import org.activiti.editor.constants.ModelDataJsonConstants;
 import org.activiti.editor.language.json.converter.BpmnJsonConverter;
-import org.activiti.engine.ActivitiException;
-import org.activiti.engine.FormService;
-import org.activiti.engine.RepositoryService;
-import org.activiti.engine.form.FormProperty;
+import org.activiti.engine.*;
 import org.activiti.engine.form.StartFormData;
 import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.ProcessDefinition;
+import org.activiti.engine.runtime.ProcessInstance;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.ui.Model;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 流程模型相关Controller
@@ -34,11 +34,16 @@ import java.util.List;
 @Service
 public class ActModelService {
 
+	protected static final Logger LOGGER = LoggerFactory.getLogger(ActModelService.class);
+
 	@Autowired
 	private RepositoryService repositoryService;
 
 	@Autowired
 	private FormService formService;
+
+	@Autowired
+	private ProcessEngine processEngine;
 
 
 	/**
@@ -178,17 +183,16 @@ public class ActModelService {
 
 	/**
 	 * 启动流程
-	 * @param processDefId
-	 * @param model
+	 * @param processInsKey
 	 * @return
 	 */
 	@Transactional(readOnly = false)
-	public Model startProcess(String processDefId, Model model){
-		StartFormData startFormData = formService.getStartFormData(processDefId);
-		List<FormProperty> formProperties= startFormData.getFormProperties();
-		ProcessDefinition pd = startFormData.getProcessDefinition();
-		model.addAttribute("list",formProperties);
-		model.addAttribute("pd",pd);
-		return model;
+	public String startProcess(String processInsKey, Map<String, Object> data){
+//		StartFormData startFormData = formService.getStartFormData(processInsKey);
+//		LOGGER.debug("启动流程是获取表单数据：{}", startFormData);
+		RuntimeService runtimeService = processEngine.getRuntimeService();
+		ProcessInstance processInstance = runtimeService.startProcessInstanceByKey(processInsKey,data);
+		String processInsId = processInstance.getProcessDefinitionId();
+		return processInsId;
 	}
 }

@@ -109,7 +109,23 @@ public class ActModelController implements ModelDataJsonConstants {
 		map.put("msg",message);
 		return map;
 	}
-	
+
+	/**
+	 * 根据模型定义key启动流程
+	 * @param processDefKey
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value = "/start/{processDefKey}", method = RequestMethod.POST)
+	public Map startProcess(@PathVariable("processDefKey") String processDefKey){
+		Map<String, Object> data = new HashMap<>();
+		LOGGER.debug("启动流程key：{}，流程启动设置参数：{}", processDefKey, data);
+		String processDefId = actModelService.startProcess(processDefKey, data);
+		Map<String, Object> map = new HashMap<>();
+		map.put("processDefId",processDefId);
+		return map;
+	}
+
 	/**
 	 * 导出model的xml文件
 	 */

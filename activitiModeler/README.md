@@ -9,3 +9,14 @@
 #### 表单业务
 * 开始+用户任务节点设置表单属性，通过FormService接口获取表单信息，展示给用户判断任务节点的附加信息
 </br>例如：提交请假申请的信息需要附带一些信息：包括请假的开始时间+结束时间+请假理由等等信息，这些信息就可以通过activiti的表单功能设置以及展示相关信息
+
+
+## Activiti启动流程涉及到的数据操作
+
+ * 启动流程涉及到的数据表：act-ru-execution,act-ru-task,act-hi-identitylink
+		
+ * act-ru-execution插入一条数据表明当前流程的执行状态
+		
+ * act-ru-task插入一条当前流程任务执行实例
+		 
+ * act-hi-identitylink插入流程执行的用户信息
