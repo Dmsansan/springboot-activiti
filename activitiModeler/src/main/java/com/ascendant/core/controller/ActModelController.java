@@ -4,8 +4,13 @@ import com.ascendant.core.service.ActModelService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.activiti.editor.constants.ModelDataJsonConstants;
-import org.activiti.engine.ActivitiException;
-import org.activiti.engine.RepositoryService;
+import org.activiti.engine.*;
+import org.activiti.engine.form.FormProperty;
+import org.activiti.engine.form.StartFormData;
+import org.activiti.engine.form.TaskFormData;
+import org.activiti.engine.repository.ProcessDefinition;
+import org.activiti.engine.runtime.ProcessInstance;
+import org.activiti.engine.task.Task;
 import org.activiti.rest.editor.model.ModelSaveRestResource;
 import org.apache.batik.transcoder.TranscoderInput;
 import org.apache.batik.transcoder.TranscoderOutput;
@@ -25,6 +30,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -39,13 +45,22 @@ public class ActModelController implements ModelDataJsonConstants {
 	private ActModelService actModelService;
 
 
-	protected static final Logger LOGGER = LoggerFactory.getLogger(ModelSaveRestResource.class);
+	protected static final Logger LOGGER = LoggerFactory.getLogger(ActModelController.class);
 
 	@Autowired
 	private RepositoryService repositoryService;
 
 	@Autowired
 	private ObjectMapper objectMapper;
+
+	@Autowired
+	private FormService formService;
+
+	@Autowired
+	private TaskService taskService;
+
+	@Autowired
+	private RuntimeService runtimeService;
 
 
 	///**
@@ -111,14 +126,33 @@ public class ActModelController implements ModelDataJsonConstants {
 	}
 
 	/**
-	 * 根据模型定义key启动流程
-	 * @param processDefKey
+	 * 获取流程动态表单属性
+	 * @param id
 	 * @return
 	 */
 	@ResponseBody
-	@RequestMapping(value = "/start/{processDefKey}", method = RequestMethod.POST)
-	public Map startProcess(@PathVariable("processDefKey") String processDefKey){
-		Map<String, Object> data = new HashMap<>();
+	@RequestMapping(value = "/getProcessFrom/{id}", method = RequestMethod.GET)
+	public Map getProcessForm(@PathVariable("id") String id){
+		Map<String, Object> map = new HashMap<>();
+		StartFormData startFormData = formService.getStartFormData(id);
+		List<FormProperty> formProperties = startFormData.getFormProperties();
+		ProcessDefinition processDefinition = startFormData.getProcessDefinition();
+		map.put("formProperties", formProperties);
+		map.put("processDefinitionId", processDefinition.getId());
+		return map;
+	}
+
+	/**
+	 * 根据模型定义key启动流程
+	 * @param processDefKey
+	 * @param data //启动流程数据
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value = "/start/{processDefKey}", method = RequestMethod.POST, produces = "application/json")
+	public Map startProcess(@PathVariable("processDefKey") String processDefKey,
+							@RequestBody Map<String, Object> data){
+
 		LOGGER.debug("启动流程key：{}，流程启动设置参数：{}", processDefKey, data);
 		String processDefId = actModelService.startProcess(processDefKey, data);
 		Map<String, Object> map = new HashMap<>();
@@ -126,6 +160,24 @@ public class ActModelController implements ModelDataJsonConstants {
 		return map;
 	}
 
+    /**
+     * 获取任务节点动态表单数据
+     * @param taskId
+     * @return
+     */
+	@ResponseBody
+    @RequestMapping(value = "getTaskForms/{taskId}", method = RequestMethod.GET)
+	public Map getTaskFroms(@PathVariable("taskId") String taskId){
+        Task task = taskService.createTaskQuery().taskId(taskId).singleResult();
+        String processInstanceId = task.getProcessInstanceId();
+        TaskFormData taskFormData = formService.getTaskFormData(taskId);
+        ProcessInstance pi = runtimeService.createProcessInstanceQuery().processInstanceId(processInstanceId).singleResult();
+        List<FormProperty> list = taskFormData.getFormProperties();
+        Map<String, Object> map = new HashMap<>();
+        map.put("form",list);
+        return map;
+
+    }
 	/**
 	 * 导出model的xml文件
 	 */
